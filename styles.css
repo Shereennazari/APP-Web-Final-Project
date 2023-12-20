@@ -1,6 +1,6 @@
 body{
     background-color: #A4AC86;
-    font-family: 'Josefin Sans', sans-serif;
+    font-family: "Kings variant0", Tofu;
 }
 html, body{
     margin: 0px;
@@ -12,6 +12,7 @@ h1{
     text-shadow: #414833;
     margin-top: 18px;
     margin-bottom: 45px;
+    text-shadow: #f3a412 3px 3px;
 }
 p{
     margin-left: 20px;
@@ -104,7 +105,7 @@ img{
     padding-bottom: 10px;
     position: relative;
     margin-left: 20px;
-    box-shadow: #555555 9px 7px;
+    box-shadow: #368e02 10px 7px;
 }
 .name{
     color: yellow;
@@ -137,6 +138,7 @@ footer{
     background-color: #414833;
     height: 40px;
     text-align: center;
+    color: white;  
     font-size: 20px;
     padding-top: 20px;
     padding-bottom: 10px;
