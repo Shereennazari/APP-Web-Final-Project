@@ -7,38 +7,36 @@
         <title>form</title>
         <link rel="stylesheet" type="text/css" href="styles(2).css">
     </head>
-    <nav class="nave">
-        <a href="Index.html">Home</a>
-        <a href="books.html">Books</a>
-        <a href="HisTomb.html">HisTomb</a>
-        <a href="#">Form</a>
-    </nav>
     <body>
-        <header>
+        <nav class="nave">
+            <a href="Index.html">Home</a>
+            <a href="books.html">Books</a>
+            <a href="HisTomb.html">HisTomb</a>
+            <a href="#">Form</a>
+        </nav>
             <h1>Your Comments About Website</h1>
-        </header>
         <main>
             <div class="wrapper">
-                <form action="confirmation.html" method="GET">
-                    <div class="input-box">
-                        <label for="input-box">Name:</label>
-                        <input type="text" class="input-box" name="input-box" required>
-                    </div>
-                    <div class="input-box">
-                        <label for="input-box">password:</label>
-                        <input type="text" class="input-box" name="input-box" required>
-                    </div>
-                    <div>
-                        <label for="input-box">Age:</label>
-                        <input type="text" class="input-box" name="input-box" required>
-                    </div>
-                    <div>
-                        <label for="com">Comment:</label>
-                        <textarea class="com"></textarea>
-                    </div>
-                    <div class="butn">
-                        <button type="submit">Submit</button>
-                    </div>
+                    <form action="confirmation.html" method="GET">
+                        <div>
+                            <label for="wrap">Name:</label>
+                            <input type="text" id="wrap" name="wrap" required>
+                        </div>
+                        <div>
+                            <label for="word">password:</label>
+                            <input type="text" id="word" name="word" required>
+                        </div>
+                        <div>
+                            <label for="input-box">Age:</label>
+                            <input type="text" id="input-box" name="input-box" required>
+                        </div>
+                        <div>
+                            <label for="com">Comment:</label>
+                            <textarea id="com"></textarea>
+                        </div>
+                        <div class="butn">
+                            <button type="submit">Submit</button>
+                        </div>
                 </form>
             </div>
         </main>

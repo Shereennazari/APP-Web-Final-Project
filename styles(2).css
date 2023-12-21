@@ -39,7 +39,7 @@ input[type="text"], input[type="email"]{
     border-radius: 20px;
     background-color: transparent;
 }
-.input-box{
+.word{
     padding-left: 5px;
     padding-right: 5px;
 }
