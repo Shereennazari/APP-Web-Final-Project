@@ -82,7 +82,7 @@ img{
     transition: 1s;
 }
 .img img:hover{
-    transform: scale(1);
+    transform: scale(0.9);
 }
 #map{
     width: 90%;
@@ -107,6 +107,12 @@ img{
     position: relative;
     margin-left: 20px;
     box-shadow: #368e02 10px 7px;
+}
+.picture img{
+    transition: 1s;
+}
+.picture img:hover{
+    transform: scale(0.9);
 }
 .name{
     color: yellow;
