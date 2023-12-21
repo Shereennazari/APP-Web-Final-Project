@@ -9,7 +9,6 @@ body{
     background-position: center;
     background-attachment: fixed;
     background-size: cover;
-    font-family: 'Josefin Sans', sans-serif
 }
 main{
     background-color: transparent;
@@ -32,6 +31,7 @@ h1{
     color: black;
     font-size: 30px;
     margin-top: 60px;
+    font-family: "Rubik_Doodle_Triangles variant0", Tofu;
 }
 input[type="text"], input[type="email"]{
     width:100%;
